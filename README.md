@@ -27,7 +27,7 @@ Here is a simplified overview of how we could unlock the message:
 Unfortunately, finding the right key isn't enough. We also need to know how the key was used to lock the message:
 ![Visual flowchart explaining needing to know key is not enough](images/wrinkle.png)
 
-So to unlock the message, we both the **right key** and **right mechanism**.
+So to unlock the message, we need both the **right key** and **right mechanism**.
 
 ![Visual flowchart explaining solution requires key and correct mechanism](images/key_and_mechanism.png)
 
