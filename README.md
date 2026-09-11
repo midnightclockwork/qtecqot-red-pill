@@ -33,7 +33,7 @@ So to unlock the message, we both the **right key** and **right mechanism**.
 
 ## Cryptography 911
 
-Since I'm not a cryptanalyst, AI was used to produce an exhaustive cryptanalysis of the red pill ```BLOB```:
+Since I'm not a cryptanalyst, AI was used to produce an exhaustive cryptanalysis of the red pill ```BLOB```.  5 different AI engines were consulted:
 * Opus 5.0
 * GPT-5.6 Luna
 * Deepseek V4
@@ -41,9 +41,9 @@ Since I'm not a cryptanalyst, AI was used to produce an exhaustive cryptanalysis
 * Qwen-3.6
 
 GPT-6 Astra (Medium) was then asked to: 
-* Analyze the documents and try to disprove their theories and rule things out
-* Do an independent analysis of the ```BLOB```
-* Compile all findings into a single comprehensive cryptanalysis.
+* Analyze the documents and try to disprove the theories presented.
+* Do an independent cryptanalysis of the ```BLOB```.
+* Compile all findings into a single comprehensive document.
 
 ### Key Findings
 
