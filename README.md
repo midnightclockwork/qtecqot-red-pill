@@ -1,6 +1,6 @@
 # @qtecqot - red pill cipher
 
-In the description in one of ```@qtecqot```'s [videos](https://www.youtube.com/watch?v=bg1BmaF6AJA), the following mysterious text is shown:
+In the description of ```@qtecqot```'s [video](https://www.youtube.com/watch?v=bg1BmaF6AJA) is the following mysterious text:
 
 ```
 blue pill:
@@ -20,16 +20,16 @@ Cryptography is the science of keeping information secure. It works by scramblin
 
 Here is a simplified overview of how we could unlock the message:
 
-![Visual flowchart of decoding process](images/overview.png)
+![Visual flowchart of decoding process](images/overview.jpg)
 
 ### The Wrinkle
 
 Unfortunately, finding the right key isn't enough. We also need to know how the key was used to lock the message:
-![Visual flowchart explaining needing to know key is not enough](images/wrinkle.png)
+![Visual flowchart explaining needing to know key is not enough](images/wrinkle.jpg)
 
 So to unlock the message, we need both the **right key** and **right mechanism**.
 
-![Visual flowchart explaining solution requires key and correct mechanism](images/key_and_mechanism.png)
+![Visual flowchart explaining solution requires key and correct mechanism](images/key_and_mechanism.jpg)
 
 ## Cryptography 911
 
@@ -46,6 +46,16 @@ GPT-6 Astra (Medium) was then asked to:
 * Compile all findings into a single comprehensive document.
 
 ### Key Findings
+
+```
+offset  hexadecimal bytes
+00      69 18 32 8c f8 b2 9c 06 c9 43 52 8f 00 85 a8 05
+10      9b b1 80 ab b3 05 7e 1a a9 f9 3c 5d a2 6c 2d c7
+20      c9 48 8d b2 9a 8e 40 6f 05 8f 24 4f a6 b8 c0 bc
+30      64 fd 86 04 71 c7 87 d7 20 74 d8 c8 6c 3a 7f c4
+40      5a 79 c4 f9 3d d4 5d 2e f2 59 63 dd 7e e6 a5 3c
+50      c6 cc c7 40 d3 e6 cb 6a 51 8a af 80 47 61 8e 24
+```
 
 The ```BLOB``` decodes cleanly to **96 bytes** of binary data. It does not immediately reveal readable text, another ordinary Base64 layer, or a recognizable file format.
 
@@ -92,7 +102,7 @@ In the video comments, ```@marySol10039``` posted an early AI assisted analysis 
 
 >Stay the course. Your direction is true, but falling trees make no sound when they're alone. Better to watch the sun.
 
-⚠️ As of 9/10/26, this comment thread has vanished from the video. View the [archived screenshot here](images/yt_clue.png).
+⚠️ As of 9/10/26, this comment thread has vanished from the video. View the [archived screenshot here](images/yt_clue.jpg).
 
 ## Concerns
 
@@ -100,7 +110,7 @@ In the video comments, ```@marySol10039``` posted an early AI assisted analysis 
 
 On July 28, `@qtecqot` mentioned on X that he has a dead man's switch mechanism.
 
-![Dead man's switch](images/dms.png "Dead man's switch")
+![Dead man's switch](images/dms.jpg "Dead man's switch")
 
 > A **dead man's switch** is an automated security mechanism designed to publish or transmit pre-stored data if the user becomes incapacitated, detained, or passes away.  
 
