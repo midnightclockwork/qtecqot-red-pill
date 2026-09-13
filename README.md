@@ -72,7 +72,7 @@ The ```BLOB``` decodes cleanly to **96 bytes** of binary data. It does not immed
 **We cannot tell which algorithm was used**, whether the blob contains an IV/nonce or authentication tag, how a password might become a key, **or whether the content is an encrypted message at all**.
 
 ### Full Findings
-The [comprehensive cryptanalysis](crypto/cryptanalysis.md) is available for review.
+The [comprehensive cryptanalysis](cryptanalysis/cryptanalysis.md) is available for review.
 
 
 ## Clues
